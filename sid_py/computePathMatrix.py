@@ -2,6 +2,7 @@ import numpy as np
 import math
 from scipy import sparse
 
+
 def computePathMatrix(G, spars=False):
     """
     Python implementation of computePathMatrix.R
@@ -12,7 +13,7 @@ def computePathMatrix(G, spars=False):
         print("Warning: Maybe you should use the sparse version by using spars=TRUE")
 
     if spars:
-        # معادل کتابخانه Matrix در R
+        # Equivalent to the 'Matrix' library in R
         path_matrix = sparse.eye(p, format='csr') + sparse.csr_matrix(G)
     else:
         path_matrix = np.eye(p) + np.array(G)
@@ -24,7 +25,8 @@ def computePathMatrix(G, spars=False):
             path_matrix.data = np.ones_like(path_matrix.data)
         else:
             path_matrix = (path_matrix > 0).astype(float)
-            # در انتهای تابع computePathMatrix
+
+            # At the end of the computePathMatrix function
             if spars and sparse.issparse(path_matrix):
                 return (path_matrix > 0).astype(int)
             else:

@@ -3,9 +3,9 @@ import numpy as np
 from sid_py.computePathMatrix import computePathMatrix
 from scipy import sparse
 
-# تست ۱: بررسی یک سناریوی استاندارد (گراف زنجیره‌ای)
+# Test 1: Check a standard scenario (Chain Graph)
 def test_standard_chain():
-    # ورودی: 0 -> 1 -> 2
+    # Input: 0 -> 1 -> 2
     G = np.array([
         [0, 1, 0],
         [0, 0, 1],
@@ -14,35 +14,35 @@ def test_standard_chain():
 
     actual = computePathMatrix(G)
 
-    # خروجی مورد انتظار (با احتساب اینکه قطر اصلی باید 1 باشد)
+    # Expected output (including the diagonal which must be 1)
     expected = np.array([
-        [1, 1, 1],  # گره 0 به خودش، 1 و 2 راه دارد
-        [0, 1, 1],  # گره 1 به خودش و 2 راه دارد
-        [0, 0, 1]  # گره 2 فقط به خودش راه دارد
+        [1, 1, 1],  # Node 0 has paths to itself, 1, and 2
+        [0, 1, 1],  # Node 1 has paths to itself and 2
+        [0, 0, 1]   # Node 2 has a path only to itself
     ])
 
-    # مقایسه خروجی واقعی با مورد انتظار
+    # Compare actual output with expected output
     np.testing.assert_array_equal(actual, expected)
 
 
-# تست ۲: بررسی گراف بدون یال (Empty Graph)
+# Test 2: Check graph with no edges (Empty Graph)
 def test_no_edges():
     G = np.zeros((2, 2))
     actual = computePathMatrix(G)
-    # طبق مستندات R، حتی در گراف خالی قطر اصلی باید 1 باشد [cite: 2]
+    # According to R documentation, even in an empty graph, the diagonal must be 1
     expected = np.eye(2)
     np.testing.assert_array_equal(actual, expected)
 
 
-# تست ۳: بررسی حالت Sparse (ماتریس خلوت)
-    def test_sparse_mode():
-        G = np.array([[0, 1], [0, 0]])
-        actual_dense = computePathMatrix(G, spars=False)
-        actual_sparse = computePathMatrix(G, spars=True)
+# Test 3: Check Sparse mode
+def test_sparse_mode():
+    G = np.array([[0, 1], [0, 0]])
+    actual_dense = computePathMatrix(G, spars=False)
+    actual_sparse = computePathMatrix(G, spars=True)
 
-        # اگر خروجی Sparse بود، آن را به آرایه معمولی تبدیل کن تا تست بتواند مقایسه کند
-        if sparse.issparse(actual_sparse):
-            actual_sparse = actual_sparse.toarray()
+    # If the output is Sparse, convert it to a dense array for comparison
+    if sparse.issparse(actual_sparse):
+        actual_sparse = actual_sparse.toarray()
 
-        # حالا مقایسه انجام می‌شود
-        np.testing.assert_array_equal(actual_dense, actual_sparse)
+    # Perform the assertion
+    np.testing.assert_array_equal(actual_dense, actual_sparse)
