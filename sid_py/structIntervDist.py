@@ -1,68 +1,117 @@
 import numpy as np
 from .computePathMatrix import computePathMatrix
 from .computePathMatrix2 import computePathMatrix2
+from .dSepAdji import dSepAdji
 
 
 def structIntervDist(trueGraph, estGraph, output=False, spars=False):
     """
-    Computes the Structural Intervention Distance (SID) between two graphs.
-    Implementation based on structIntervDist.R
+    Structural Intervention Distance (SID)
+
+    Fully correct DAG → DAG implementation
+    based on Peters & Bühlmann (2015).
+
+    Parameters
+    ----------
+    trueGraph : ndarray (p×p)
+        True causal DAG
+
+    estGraph : ndarray (p×p)
+        Estimated DAG
+
+    Returns
+    -------
+    dict with keys:
+        sid
+        sidLowerBound
+        sidUpperBound
+        incorrectMat
     """
-    # Initialize matrices
-    trueGraph = np.array(trueGraph)
-    estGraph = np.array(estGraph)
-    p = trueGraph.shape[1]
 
-    incorrectInt = np.zeros((p, p))
-    correctInt = np.zeros((p, p))
+    trueGraph = np.asarray(trueGraph, dtype=int)
+    estGraph = np.asarray(estGraph, dtype=int)
 
-    # Step 1: Compute path matrix for the true graph
-    # entry (i,j) is 1 if there is a directed path from i to j
-    path_matrix = computePathMatrix(trueGraph, spars)
+    if trueGraph.shape != estGraph.shape:
+        raise ValueError("trueGraph and estGraph must have same shape")
 
-    # Initial result structure
-    results = {
-        "sid": 0,
-        "sidUpperBound": 0,
-        "sidLowerBound": 0,
-        "incorrectMat": None
-    }
+    if trueGraph.shape[0] != trueGraph.shape[1]:
+        raise ValueError("Graphs must be square adjacency matrices")
 
-    # Logical core: Iterate through nodes to check parent adjustment sets
+    p = trueGraph.shape[0]
+
+    # ---------------------------------------
+    # Path matrix of true graph
+    # ---------------------------------------
+    PathMatrix = computePathMatrix(trueGraph, spars)
+
+    incorrectMat = np.zeros((p, p), dtype=int)
+
+    # ---------------------------------------
+    # Main SID logic
+    # ---------------------------------------
     for i in range(p):
-        # Parents of i in the estimated graph
-        # Note: In Python, we use 0-based indexing
+
+        # parents of i in estimated graph
+        # parents of i in estimated graph
         pa_est = np.where(estGraph[:, i] == 1)[0]
 
-        # Compute PathMatrix2 for this specific intervention
-        path_matrix2 = computePathMatrix2(trueGraph, pa_est, path_matrix, spars)
+        # parents of i in TRUE graph
+        pa_true = np.where(trueGraph[:, i] == 1)[0]
 
-        # Simplified Logic for DAG comparison (further helper functions needed for full CPDAG support)
+        # If parent sets are identical, adjustment is correct for all j
+        if set(pa_est) == set(pa_true):
+            continue
+
+        # remove outgoing edges of pa_est
+        PathMatrix2 = computePathMatrix2(
+            trueGraph,
+            pa_est,
+            PathMatrix,
+            spars=spars
+        )
+
         for j in range(p):
+
             if i == j:
                 continue
 
-            # If true graph has no path, but estimated graph predicts one incorrectly, etc.
-            # This follows the specific causal checks in structIntervDist.R
-            is_incorrect = False
+            incorrect = False
 
-            # Check if j is reachable from i in trueGraph
-            has_path = path_matrix[i, j] > 0
+            # -------------------------------------------------
+            # CASE 1:
+            # j ∈ Pa_est(i)
+            # -------------------------------------------------
+            if j in pa_est:
+                # estGraph predicts zero effect
+                # incorrect if i truly causes j
+                if PathMatrix[i, j] == 1:
+                    incorrect = True
 
-            # Basic SID rule: check if parent adjustment is valid
-            # (This part requires the dSepAdji logic from the R source)
-            # For now, we implement the primary path-based check:
-            if not has_path and (j in pa_est):
-                is_incorrect = True
-
-            if is_incorrect:
-                incorrectInt[i, j] = 1
+            # -------------------------------------------------
+            # CASE 2:
+            # j ∉ Pa_est(i)
+            # -------------------------------------------------
             else:
-                correctInt[i, j] = 1
+                # check if Pa_est(i) is a valid adjustment set
+                # using d-separation logic
 
-    results["sid"] = int(np.sum(incorrectInt))
-    results["incorrectMat"] = incorrectInt
-    results["sidLowerBound"] = results["sid"]  # For DAGs, lower=upper=sid
-    results["sidUpperBound"] = results["sid"]
+                if not dSepAdji(
+                    AdjMat=trueGraph,
+                    x=i,
+                    y=j,
+                    condSet=pa_est,
+                    PathMatrix=PathMatrix,
+                    PathMatrix2=PathMatrix2,
+                ):
+                    incorrect = True
 
-    return results
+            incorrectMat[i, j] = int(incorrect)
+
+    sid = int(np.sum(incorrectMat))
+
+    return {
+        "sid": sid,
+        "sidLowerBound": sid,
+        "sidUpperBound": sid,
+        "incorrectMat": incorrectMat,
+    }

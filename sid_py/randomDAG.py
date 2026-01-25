@@ -1,45 +1,39 @@
 import numpy as np
-from scipy import sparse
-
 
 def randomDAG(p, probConnect, causalOrder=None):
     """
-    Generates the adjacency matrix of a randomly generated directed acyclic graph (DAG). [cite: 4]
-
-    Args:
-        p (int): Number of nodes. [cite: 6]
-        probConnect (float): Probability of connecting two nodes.
-        causalOrder (list, optional): Causal or topological order of the nodes.
-                                      If None, it's chosen randomly. [cite: 9]
-
-    Returns:
-        numpy.ndarray or scipy.sparse.csr_matrix: Adjacency matrix where entry (i,j)
-                                                  is 1 if there is an edge from i to j. [cite: 10, 11]
+    R-equivalent randomDAG:
+      - choose causalOrder if None: a random permutation of 0..p-1
+      - for i = 0..p-3:
+          node = causalOrder[i]
+          possibleParents = causalOrder[i+1:]
+          numberParents ~ Binomial(n=len(possibleParents), p=probConnect)
+          parents = sample(possibleParents, numberParents, replace=False)
+          add edges parents -> node
+      - special case for last pair:
+          node = causalOrder[p-2]
+          add edge causalOrder[p-1] -> node with probability probConnect
     """
     if causalOrder is None:
-        # Generate a random topological order
         causalOrder = np.random.permutation(p)
     else:
-        # Ensure it's a numpy array for indexing
-        causalOrder = np.array(causalOrder)
+        causalOrder = np.array(causalOrder, dtype=int)
 
-    # Initialize a sparse matrix as in the R source code
-    DAG = np.zeros((p, p))
+    DAG = np.zeros((p, p), dtype=int)
 
-    # Iterate through nodes to add edges based on the causal order
-    for i in range(p - 1):
+    # main loop: i = 0..p-3 (matches R: 1..p-2)
+    for i in range(p - 2):
         node = causalOrder[i]
-        # Possible parents are nodes later in the causal order
-        possibleParents = causalOrder[(i + 1):p]
-        num_possible = len(possibleParents)
-
-        # Determine the number of parents using a binomial distribution
-        numberParents = np.random.binomial(n=num_possible, p=probConnect)
+        possibleParents = causalOrder[i + 1:]
+        numberParents = np.random.binomial(n=len(possibleParents), p=probConnect)
 
         if numberParents > 0:
-            # Randomly select which nodes will be parents
             parents = np.random.choice(possibleParents, size=numberParents, replace=False)
-            # In R code: DAG[Parents, node] <- 1
             DAG[parents, node] = 1
+
+    # special case: last pair (matches R)
+    if p >= 2:
+        node = causalOrder[p - 2]
+        DAG[causalOrder[p - 1], node] = np.random.binomial(1, probConnect)
 
     return DAG
