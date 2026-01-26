@@ -12,7 +12,7 @@ def computePathMatrix2(G, condSet, PathMatrix1, spars=False):
         return np.asarray(PathMatrix1, dtype=int)
 
     G_modified = G.copy()
-    # condSet باید 0-based باشد
+    # condSet must be 0-based (zero-indexed)
     G_modified[list(condSet), :] = 0
 
     if spars:
@@ -24,7 +24,7 @@ def computePathMatrix2(G, condSet, PathMatrix1, spars=False):
 
     for _ in range(k):
         P = P @ P
-        # Optional: جلوگیری از رشد عددها
+        # Optional: prevent numbers from growing (avoid value blow-up)
         if spars:
             P.data = np.ones_like(P.data)
         else:
