@@ -1,1 +1,3 @@
-                       
+#(venv) PS C:\Users\User\PycharmProjects\SID_py2> $env:PYTHONPATH = (Get-Location).Path 
+(venv) PS C:\Users\User\PycharmProjects\SID_py2> pytest -q tests                      
+................................                                   
