@@ -1,0 +1,1 @@
+$env:Path += ";C:\Program Files\R\R-4.5.3\bin"  

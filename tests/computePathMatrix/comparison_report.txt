@@ -1,0 +1,6 @@
+===== COMPARISON REPORT =====
+R testcases found: 100
+Python testcases found: 100
+Differences found: 0
+
+All testcase matrices and result matrices are identical.

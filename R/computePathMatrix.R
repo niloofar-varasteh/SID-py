@@ -32,3 +32,40 @@ computePathMatrix <- function(G, spars=FALSE)
     
     return(PathMatrix)
 }
+
+# llm
+
+script_dir <- getwd()
+project_dir <- dirname(script_dir)
+
+testcase_dir <- file.path(project_dir, "tests", "computePathMatrix", "Testcase")
+output_dir <- file.path(project_dir, "tests", "computePathMatrix", "R_outputs")
+
+if (!dir.exists(output_dir)) {
+    dir.create(output_dir, recursive = TRUE)
+}
+
+output_file <- file.path(output_dir, "all_results.txt")
+out <- file(output_file, open = "w")
+
+for(i in 1:100)
+{
+    filepath <- file.path(testcase_dir, paste0(i, ".txt"))
+    G <- as.matrix(read.table(filepath))
+    result <- computePathMatrix(G)
+
+    writeLines(paste0("Testcase ", i), out)
+    writeLines("Matrix:", out)
+    for(r in 1:nrow(G)) {
+        writeLines(paste(G[r, ], collapse = " "), out)
+    }
+
+    writeLines("Result Matrix:", out)
+    for(r in 1:nrow(result)) {
+        writeLines(paste(as.integer(result[r, ]), collapse = " "), out)
+    }
+
+    writeLines("", out)
+}
+
+close(out)
