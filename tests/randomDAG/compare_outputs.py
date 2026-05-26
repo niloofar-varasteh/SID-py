@@ -1,5 +1,6 @@
 import os
 
+#llm
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 r_file = os.path.join(base_dir, "R_outputs", "all_results.txt")
@@ -112,7 +113,7 @@ def respects_causal_order(matrix, causal_order):
 
     return True
 
-
+#llm
 def is_acyclic(matrix):
     n = len(matrix)
     indegree = [0] * n
@@ -141,7 +142,7 @@ def is_acyclic(matrix):
 
     return visited == n
 
-
+#llm
 def check_properties(case_data):
     problems = []
 
