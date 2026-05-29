@@ -1,19 +1,15 @@
-#llm
-
 # Note:
 # This file uses graphNEL and pcalg::dag2cpdag.
-# The earlier error happened because the required package "graph"
-# was not installed / loaded, so R could not coerce a matrix to graphNEL.
-# To run this file, make sure these packages are installed and loaded:
-# BiocManager::install("graph")
-# BiocManager::install("pcalg")
-# library(graph)
-# library(pcalg)
+# Make sure the required packages are installed and available.
 
+
+#llm
 .libPaths(c(Sys.getenv("R_LIBS_USER"), .libPaths()))
 library(methods)
 library(graph)
 library(pcalg)
+
+source("computeCausOrder.R")
 
 dag2cpdagAdj <- function(Adj)
 # Copyright (c) 2010 - 2012  Jonas Peters  [peters@stat.math.ethz.ch]
@@ -31,34 +27,10 @@ dag2cpdagAdj <- function(Adj)
     res[cO, cO] <- as(cpd, "matrix")
     result <- res
 
-    ################
-    # THE CODE ABOVE USES THE CAUSAL ORDER BECAUSE OF A VERY WEIRD BEHAVIOUR IN PCALG!!!
-    ################
-
     return(result)
 }
 
-
-computeCausOrder <- function(G)
-{
-    p <- dim(G)[2]
-    remaining <- 1:p
-    causOrder <- rep(NA, p)
-
-    for(i in 1:(p - 1))
-    {
-        root <- min(which(colSums(G) == 0))
-        causOrder[i] <- remaining[root]
-        remaining <- remaining[-root]
-        G <- G[-root, -root]
-    }
-
-    causOrder[p] <- remaining[1]
-    return(causOrder)
-}
-
 #llm
-
 script_dir <- getwd()
 project_dir <- dirname(script_dir)
 

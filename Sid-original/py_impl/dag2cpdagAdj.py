@@ -1,42 +1,18 @@
 import os
 import numpy as np
+import causaldag as cd
+from computeCausOrder import compute_caus_order
 
 
-def compute_caus_order(G):
-    G = np.array(G, dtype=int)
-    p = G.shape[1]
-    remaining = list(range(1, p + 1))
-    caus_order = []
+def dag2cpdag_adj(adj):
+    adj = np.array(adj, dtype=int)
 
-    for _ in range(p - 1):
-        #I write other form :)
-        root = min(np.where(G.sum(axis=0) == 0)[0])
-        caus_order.append(remaining[root])
-        remaining.pop(root)
-        G = np.delete(G, root, axis=0)
-        G = np.delete(G, root, axis=1)
+    if adj.sum() == 0:
+        return adj
 
-    caus_order.append(remaining[0])
-    return caus_order
-
-
-def dag2cpdag_adj(Adj):
-    Adj = np.array(Adj, dtype=int)
-
-    if Adj.sum() == 0:
-        return Adj
-
-    causal_order = compute_caus_order(Adj)
+    causal_order = compute_caus_order(adj)
     order_idx = [x - 1 for x in causal_order]
-    ordered_adj = Adj[np.ix_(order_idx, order_idx)]
-
-    try:
-        import causaldag as cd
-    except ImportError:
-        raise ImportError(
-            "The Python package 'causaldag' is required for dag2cpdagAdj. "
-            "Install it first, for example with: pip install causaldag"
-        )
+    ordered_adj = adj[np.ix_(order_idx, order_idx)]
 
     nodes = list(range(ordered_adj.shape[0]))
     arcs = set()
@@ -51,24 +27,19 @@ def dag2cpdag_adj(Adj):
 
     cpdag_matrix_ordered = np.zeros_like(ordered_adj, dtype=int)
 
-    #directed edges
     for u, v in cpdag.arcs:
         cpdag_matrix_ordered[u, v] = 1
 
-    #undirected edges
     for u, v in cpdag.edges:
         cpdag_matrix_ordered[u, v] = 1
         cpdag_matrix_ordered[v, u] = 1
 
-    result = np.zeros_like(Adj, dtype=int)
+    result = np.zeros_like(adj, dtype=int)
     result[np.ix_(order_idx, order_idx)] = cpdag_matrix_ordered
 
     return result
 
-
-
 #llm
-
 script_dir = os.getcwd()
 project_dir = os.path.dirname(script_dir)
 
