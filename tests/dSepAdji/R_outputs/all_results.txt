@@ -1,0 +1,2040 @@
+Testcase 1
+Matrix:
+0
+i:
+1
+condSet:
+empty
+reachableJ:
+0
+reachableOnNonCausalPath:
+0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 2
+Matrix:
+0
+i:
+1
+condSet:
+1
+reachableJ:
+0
+reachableOnNonCausalPath:
+0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 3
+Matrix:
+0 0
+0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 0
+reachableOnNonCausalPath:
+0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 4
+Matrix:
+0 1
+0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1
+reachableOnNonCausalPath:
+0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 5
+Matrix:
+0 1
+0 0
+i:
+1
+condSet:
+2
+reachableJ:
+0 1
+reachableOnNonCausalPath:
+0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 6
+Matrix:
+0 1
+0 0
+i:
+2
+condSet:
+empty
+reachableJ:
+1 0
+reachableOnNonCausalPath:
+1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 7
+Matrix:
+0 1 0
+0 0 1
+0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 8
+Matrix:
+0 1 0
+0 0 1
+0 0 0
+i:
+1
+condSet:
+2
+reachableJ:
+0 1 0
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 9
+Matrix:
+0 1 0
+0 0 1
+0 0 0
+i:
+2
+condSet:
+empty
+reachableJ:
+1 0 1
+reachableOnNonCausalPath:
+1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 10
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1
+reachableOnNonCausalPath:
+0 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 11
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+1
+condSet:
+2
+reachableJ:
+0 1 0
+reachableOnNonCausalPath:
+0 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 12
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+2
+condSet:
+empty
+reachableJ:
+1 0 1
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 13
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 0
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 14
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+1
+condSet:
+2
+reachableJ:
+0 1 1
+reachableOnNonCausalPath:
+0 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 15
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+empty
+reachableJ:
+0 1 0
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 16
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+2
+reachableJ:
+1 1 0
+reachableOnNonCausalPath:
+1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 17
+Matrix:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+i:
+1
+condSet:
+3
+reachableJ:
+0 1 1 0 0
+reachableOnNonCausalPath:
+0 1 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 18
+Matrix:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+i:
+2
+condSet:
+4
+reachableJ:
+1 0 1 1 0
+reachableOnNonCausalPath:
+1 0 1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 19
+Matrix:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1 1 1
+reachableOnNonCausalPath:
+0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 20
+Matrix:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+i:
+1
+condSet:
+3
+reachableJ:
+0 1 1 1 1
+reachableOnNonCausalPath:
+0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 21
+Matrix:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1 1 1 1 1
+reachableOnNonCausalPath:
+0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 22
+Matrix:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+1
+condSet:
+2
+reachableJ:
+0 1 1 0 0 1 1
+reachableOnNonCausalPath:
+0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 23
+Matrix:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+2
+condSet:
+4 5
+reachableJ:
+1 0 1 1 1 1 1
+reachableOnNonCausalPath:
+1 0 1 0 0 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 24
+Matrix:
+0 1 0 0 0 0 0 0
+0 0 1 0 0 0 0 0
+0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1 1 0 0 0 0
+reachableOnNonCausalPath:
+0 0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 25
+Matrix:
+0 1 0 0 0 0 0 0
+0 0 1 0 0 0 0 0
+0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+4
+condSet:
+empty
+reachableJ:
+1 1 1 0 0 0 0 0
+reachableOnNonCausalPath:
+1 1 1 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 26
+Matrix:
+0 1 0 0 0 0 0 0
+0 0 1 0 0 0 0 0
+0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+4
+condSet:
+5
+reachableJ:
+1 1 1 0 0 0 0 0
+reachableOnNonCausalPath:
+1 1 1 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 27
+Matrix:
+0 1 1 1 1 0
+0 0 1 1 1 1
+0 0 0 1 0 1
+0 0 0 0 1 1
+0 0 0 0 0 1
+0 0 0 0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1 1 1 1
+reachableOnNonCausalPath:
+0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 28
+Matrix:
+0 1 1 1 1 0
+0 0 0 1 1 1
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 1
+0 0 0 0 0 0
+i:
+2
+condSet:
+4
+reachableJ:
+1 0 1 1 1 1
+reachableOnNonCausalPath:
+1 0 1 1 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 29
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+2
+condSet:
+1
+reachableJ:
+1 0 1
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 30
+Matrix:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+5
+condSet:
+empty
+reachableJ:
+1 1 1 1 0 1 1
+reachableOnNonCausalPath:
+1 1 1 1 0 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 31
+Matrix:
+0 1 1 0 1 1 1 1
+0 0 1 1 0 1 0 1
+0 0 0 1 0 1 0 1
+0 0 0 0 1 1 1 1
+0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+4
+condSet:
+2
+reachableJ:
+1 1 1 0 1 1 1 1
+reachableOnNonCausalPath:
+1 1 1 0 1 1 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 32
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+1 2
+reachableJ:
+1 1 0
+reachableOnNonCausalPath:
+1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 33
+Matrix:
+0 1 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+i:
+10
+condSet:
+3
+reachableJ:
+0 0 0 0 0 1 1 1 1 0
+reachableOnNonCausalPath:
+0 0 0 0 0 1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 34
+Matrix:
+0 1 1 0 0 0 0 0 0
+0 0 0 1 1 0 0 0 0
+0 0 0 0 0 1 1 0 0
+0 0 0 0 0 0 0 1 1
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+i:
+3
+condSet:
+1
+reachableJ:
+1 0 0 0 0 1 1 0 0
+reachableOnNonCausalPath:
+1 0 0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 35
+Matrix:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+i:
+5
+condSet:
+3
+reachableJ:
+1 1 1 1 0
+reachableOnNonCausalPath:
+1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 36
+Matrix:
+0 1 1 1 1 1 1 0
+0 0 1 1 1 1 1 1
+0 0 0 0 0 1 1 1
+0 0 0 0 1 0 0 1
+0 0 0 0 0 0 1 1
+0 0 0 0 0 0 1 1
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+i:
+8
+condSet:
+3 5
+reachableJ:
+1 1 1 1 1 1 1 0
+reachableOnNonCausalPath:
+1 1 1 1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 37
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+2
+condSet:
+1
+reachableJ:
+1 0 1
+reachableOnNonCausalPath:
+1 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 38
+Matrix:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+i:
+5
+condSet:
+2 3
+reachableJ:
+0 0 1 1 0 1 1
+reachableOnNonCausalPath:
+0 0 1 1 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 39
+Matrix:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 1
+0 0 0 0 0 0
+i:
+6
+condSet:
+2
+reachableJ:
+1 1 1 1 1 0
+reachableOnNonCausalPath:
+1 1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 40
+Matrix:
+0 1 0 0 0 0 0 0
+0 0 1 0 0 0 0 0
+0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+2
+condSet:
+3 4
+reachableJ:
+1 0 1 0 0 0 0 0
+reachableOnNonCausalPath:
+1 0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 41
+Matrix:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1 1 1 1
+reachableOnNonCausalPath:
+0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 42
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+3
+condSet:
+empty
+reachableJ:
+1 1 0
+reachableOnNonCausalPath:
+1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 43
+Matrix:
+0 1 1 0 0 1 1 0
+0 0 1 1 1 1 1 1
+0 0 0 0 1 1 1 1
+0 0 0 0 1 1 1 1
+0 0 0 0 0 1 1 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+8
+condSet:
+2
+reachableJ:
+1 1 1 1 1 1 1 0
+reachableOnNonCausalPath:
+1 1 1 1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 44
+Matrix:
+0 1 1 1
+0 0 0 1
+0 0 0 0
+0 0 0 0
+i:
+1
+condSet:
+2
+reachableJ:
+0 1 1 1
+reachableOnNonCausalPath:
+0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 45
+Matrix:
+0 0 1 0
+0 0 0 1
+0 0 0 1
+0 0 0 0
+i:
+3
+condSet:
+1 4
+reachableJ:
+1 1 0 1
+reachableOnNonCausalPath:
+1 1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 46
+Matrix:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+i:
+3
+condSet:
+empty
+reachableJ:
+1 1 0 1 1 1
+reachableOnNonCausalPath:
+1 1 0 1 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 47
+Matrix:
+0 1 1 0 0 0 0 0 0
+0 0 0 1 1 0 0 0 0
+0 0 0 0 0 1 1 0 0
+0 0 0 0 0 0 0 1 1
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+i:
+2
+condSet:
+empty
+reachableJ:
+1 0 1 1 1 1 1 1 1
+reachableOnNonCausalPath:
+1 0 1 0 0 1 1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 48
+Matrix:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+6
+condSet:
+5 7
+reachableJ:
+1 1 1 1 1 0 1
+reachableOnNonCausalPath:
+1 1 1 1 1 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 49
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+3
+condSet:
+2
+reachableJ:
+0 1 0
+reachableOnNonCausalPath:
+0 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 50
+Matrix:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+i:
+1
+condSet:
+4 6
+reachableJ:
+0 1 1 1 0 0
+reachableOnNonCausalPath:
+0 1 1 1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 51
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+2
+condSet:
+1 3
+reachableJ:
+1 0 1
+reachableOnNonCausalPath:
+1 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 52
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+1
+reachableJ:
+0 1 0
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 53
+Matrix:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+i:
+5
+condSet:
+1
+reachableJ:
+1 1 0 1 0 0
+reachableOnNonCausalPath:
+1 1 0 1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 54
+Matrix:
+0 1 0 0 0 0 0 0
+0 0 1 0 0 0 0 0
+0 0 0 1 0 0 0 0
+0 0 0 0 1 0 0 0
+0 0 0 0 0 1 0 0
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+i:
+8
+condSet:
+2
+reachableJ:
+0 1 1 1 1 1 1 0
+reachableOnNonCausalPath:
+0 1 1 1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 55
+Matrix:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+3
+condSet:
+4 5
+reachableJ:
+1 1 0 1 1 1 1
+reachableOnNonCausalPath:
+1 1 0 1 1 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 56
+Matrix:
+0 1 0 0 1 1 1
+0 0 1 1 1 1 1
+0 0 0 1 1 1 0
+0 0 0 0 1 1 1
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+i:
+2
+condSet:
+7
+reachableJ:
+1 0 1 1 1 1 1
+reachableOnNonCausalPath:
+1 0 1 1 1 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 57
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+1
+condSet:
+2 3
+reachableJ:
+0 1 1
+reachableOnNonCausalPath:
+0 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 58
+Matrix:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+i:
+6
+condSet:
+empty
+reachableJ:
+0 0 0 1 1 0
+reachableOnNonCausalPath:
+0 0 0 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 59
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+3
+condSet:
+1
+reachableJ:
+1 1 0
+reachableOnNonCausalPath:
+1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 60
+Matrix:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1 1 1 1 1
+reachableOnNonCausalPath:
+0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 61
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+2
+condSet:
+empty
+reachableJ:
+1 0 1
+reachableOnNonCausalPath:
+1 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 62
+Matrix:
+0 1 1 0 0 0 0 0
+0 0 0 1 1 0 0 0
+0 0 0 0 0 1 1 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+2
+condSet:
+empty
+reachableJ:
+1 0 1 1 1 1 1 1
+reachableOnNonCausalPath:
+1 0 1 0 0 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 63
+Matrix:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+5
+condSet:
+2
+reachableJ:
+0 1 0 0 0 0 0
+reachableOnNonCausalPath:
+0 1 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 64
+Matrix:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+i:
+4
+condSet:
+2 3
+reachableJ:
+0 1 0 0 0
+reachableOnNonCausalPath:
+0 1 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 65
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+1
+condSet:
+2 3
+reachableJ:
+0 1 1
+reachableOnNonCausalPath:
+0 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 66
+Matrix:
+0 0 0 1 1 1 1
+0 0 0 1 0 1 0
+0 0 0 0 1 1 1
+0 0 0 0 1 1 1
+0 0 0 0 0 1 1
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+i:
+6
+condSet:
+2
+reachableJ:
+1 1 1 1 1 0 1
+reachableOnNonCausalPath:
+1 1 1 1 1 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 67
+Matrix:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+i:
+2
+condSet:
+3
+reachableJ:
+1 0 1 0 0 0
+reachableOnNonCausalPath:
+1 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 68
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+empty
+reachableJ:
+0 1 0
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 69
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1
+reachableOnNonCausalPath:
+0 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 70
+Matrix:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+3
+condSet:
+2 7
+reachableJ:
+0 1 0 0 0 0 0
+reachableOnNonCausalPath:
+0 1 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 71
+Matrix:
+0 1 0 0
+0 0 1 0
+0 0 0 1
+0 0 0 0
+i:
+2
+condSet:
+3 4
+reachableJ:
+1 0 1 0
+reachableOnNonCausalPath:
+1 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 72
+Matrix:
+0 1 0 1 0 1 0
+0 0 1 0 1 0 0
+0 0 0 1 1 0 1
+0 0 0 0 0 1 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+7
+condSet:
+empty
+reachableJ:
+1 1 1 1 1 1 0
+reachableOnNonCausalPath:
+1 1 1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 73
+Matrix:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+5
+condSet:
+empty
+reachableJ:
+1 1 1 1 0 1 1
+reachableOnNonCausalPath:
+1 1 1 1 0 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 74
+Matrix:
+0 1 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1 1
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+i:
+2
+condSet:
+1 4
+reachableJ:
+1 0 1 1 0 0 0 0 0
+reachableOnNonCausalPath:
+1 0 1 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 75
+Matrix:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+i:
+3
+condSet:
+1 2
+reachableJ:
+0 1 0 1 1
+reachableOnNonCausalPath:
+0 1 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 76
+Matrix:
+0 1 1 0 0 0 0 0 0
+0 0 0 1 1 0 0 0 0
+0 0 0 0 0 1 1 0 0
+0 0 0 0 0 0 0 1 1
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+i:
+8
+condSet:
+6
+reachableJ:
+1 1 1 1 1 1 1 0 1
+reachableOnNonCausalPath:
+1 1 1 1 1 1 1 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 77
+Matrix:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+i:
+7
+condSet:
+1 4
+reachableJ:
+0 0 0 1 1 1 0
+reachableOnNonCausalPath:
+0 0 0 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 78
+Matrix:
+0 1 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1 1
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+i:
+4
+condSet:
+empty
+reachableJ:
+1 1 1 0 0 0 0 0 0
+reachableOnNonCausalPath:
+1 1 1 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 79
+Matrix:
+0 0 1 0 0 1
+0 0 0 1 1 1
+0 0 0 1 1 1
+0 0 0 0 1 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+i:
+6
+condSet:
+5
+reachableJ:
+1 1 1 1 1 0
+reachableOnNonCausalPath:
+1 1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 80
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+1 2
+reachableJ:
+1 1 0
+reachableOnNonCausalPath:
+1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 81
+Matrix:
+0 1 0 0 1
+0 0 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+i:
+4
+condSet:
+empty
+reachableJ:
+1 1 1 0 1
+reachableOnNonCausalPath:
+1 1 1 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 82
+Matrix:
+0 1 1 0 0 0 0 0 0 0
+0 0 0 1 1 0 0 0 0 0
+0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+i:
+1
+condSet:
+2
+reachableJ:
+0 1 1 0 0 1 1 0 0 0
+reachableOnNonCausalPath:
+0 0 0 0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 83
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+1 2
+reachableJ:
+1 1 0
+reachableOnNonCausalPath:
+1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 84
+Matrix:
+0 1 1 1 1 1 1 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+8
+condSet:
+2 5
+reachableJ:
+1 1 1 1 1 1 1 0
+reachableOnNonCausalPath:
+1 1 1 1 1 1 1 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 85
+Matrix:
+0 1 1 0 0 0 0 0
+0 0 0 1 1 0 0 0
+0 0 0 0 0 1 1 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+4
+condSet:
+3 6
+reachableJ:
+1 1 1 0 1 0 0 1
+reachableOnNonCausalPath:
+1 1 1 0 1 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 86
+Matrix:
+0 1 0 0 0 0 0 0
+0 0 1 0 0 0 0 0
+0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+7
+condSet:
+empty
+reachableJ:
+0 0 0 0 1 1 0 1
+reachableOnNonCausalPath:
+0 0 0 0 1 1 0 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 87
+Matrix:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+i:
+5
+condSet:
+4
+reachableJ:
+1 1 1 1 0 1 1
+reachableOnNonCausalPath:
+1 1 1 1 0 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 88
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+empty
+reachableJ:
+0 1 0
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 89
+Matrix:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+i:
+6
+condSet:
+3
+reachableJ:
+0 0 1 0 0 0
+reachableOnNonCausalPath:
+0 0 1 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 90
+Matrix:
+0 1 0 1
+0 0 1 1
+0 0 0 1
+0 0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 1 1 1
+reachableOnNonCausalPath:
+0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 91
+Matrix:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+i:
+5
+condSet:
+1 3
+reachableJ:
+0 0 1 1 0 1
+reachableOnNonCausalPath:
+0 0 1 1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 92
+Matrix:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+i:
+2
+condSet:
+4 5
+reachableJ:
+1 0 1 1 0
+reachableOnNonCausalPath:
+1 0 1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 93
+Matrix:
+0 1 1 1 1 1 1 1
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+i:
+2
+condSet:
+6
+reachableJ:
+1 0 1 1 1 1 1 1
+reachableOnNonCausalPath:
+1 0 1 1 1 1 1 1
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 94
+Matrix:
+0 0 0
+1 0 1
+0 0 0
+i:
+2
+condSet:
+1
+reachableJ:
+1 0 1
+reachableOnNonCausalPath:
+0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 95
+Matrix:
+0 1 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1 1
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+i:
+3
+condSet:
+6 7
+reachableJ:
+1 1 0 1 0 0 0 0 0
+reachableOnNonCausalPath:
+1 1 0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 96
+Matrix:
+0 1 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1 1
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+i:
+1
+condSet:
+5
+reachableJ:
+0 1 1 1 0 0 0 0 0
+reachableOnNonCausalPath:
+0 0 0 0 0 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 97
+Matrix:
+0 1 0
+0 0 0
+0 1 0
+i:
+3
+condSet:
+1 2
+reachableJ:
+1 1 0
+reachableOnNonCausalPath:
+1 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 98
+Matrix:
+0 0 1 1
+0 0 0 0
+0 0 0 1
+0 0 0 0
+i:
+1
+condSet:
+empty
+reachableJ:
+0 0 1 1
+reachableOnNonCausalPath:
+0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 99
+Matrix:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+i:
+2
+condSet:
+1 4
+reachableJ:
+1 0 0 0 0
+reachableOnNonCausalPath:
+1 0 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+
+Testcase 100
+Matrix:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+i:
+1
+condSet:
+3
+reachableJ:
+0 1 1 0 0
+reachableOnNonCausalPath:
+0 1 0 0 0
+timeComputePM:
+0
+timeComputePM2:
+0
+

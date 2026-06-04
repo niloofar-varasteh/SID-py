@@ -12,9 +12,10 @@ def read_file(path):
     results = {}
     case_num = None
     matrix = []
+    i_value = None
     cond_set = []
-    path_matrix1 = []
-    result_matrix = []
+    reachable_j = []
+    reachable_noncausal = []
     mode = None
 
     for line in lines:
@@ -24,29 +25,38 @@ def read_file(path):
             if case_num is not None:
                 results[case_num] = {
                     "matrix": matrix,
+                    "i": i_value,
                     "cond_set": cond_set,
-                    "path_matrix1": path_matrix1,
-                    "result_matrix": result_matrix
+                    "reachable_j": reachable_j,
+                    "reachable_noncausal": reachable_noncausal,
                 }
 
             case_num = int(line.replace("Testcase ", ""))
             matrix = []
+            i_value = None
             cond_set = []
-            path_matrix1 = []
-            result_matrix = []
+            reachable_j = []
+            reachable_noncausal = []
             mode = None
 
         elif line == "Matrix:":
             mode = "matrix"
 
+        elif line == "i:":
+            mode = "i"
+
         elif line == "condSet:":
             mode = "condSet"
 
-        elif line == "PathMatrix1:":
-            mode = "path1"
+        elif line == "reachableJ:":
+            mode = "reachableJ"
 
-        elif line == "Result Matrix:":
-            mode = "result"
+        elif line == "reachableOnNonCausalPath:":
+            mode = "reachableOnNonCausalPath"
+
+        elif line == "timeComputePM:" or line == "timeComputePM2:":
+            mode = "time"
+            continue
 
         elif line == "":
             continue
@@ -54,22 +64,27 @@ def read_file(path):
         else:
             if mode == "matrix":
                 matrix.append([int(x) for x in line.split()])
+            elif mode == "i":
+                i_value = int(line)
             elif mode == "condSet":
                 if line == "empty":
                     cond_set = []
                 else:
                     cond_set = [int(x) for x in line.split()]
-            elif mode == "path1":
-                path_matrix1.append([int(x) for x in line.split()])
-            elif mode == "result":
-                result_matrix.append([int(x) for x in line.split()])
+            elif mode == "reachableJ":
+                reachable_j = [int(x) for x in line.split()]
+            elif mode == "reachableOnNonCausalPath":
+                reachable_noncausal = [int(x) for x in line.split()]
+            elif mode == "time":
+                continue
 
     if case_num is not None:
         results[case_num] = {
             "matrix": matrix,
+            "i": i_value,
             "cond_set": cond_set,
-            "path_matrix1": path_matrix1,
-            "result_matrix": result_matrix
+            "reachable_j": reachable_j,
+            "reachable_noncausal": reachable_noncausal,
         }
 
     return results
@@ -106,16 +121,20 @@ for case in all_cases:
         differences.append(f"Testcase {case}: input matrix mismatch")
         case_ok = False
 
+    if r_results[case]["i"] != py_results[case]["i"]:
+        differences.append(f"Testcase {case}: i mismatch")
+        case_ok = False
+
     if r_results[case]["cond_set"] != py_results[case]["cond_set"]:
         differences.append(f"Testcase {case}: condSet mismatch")
         case_ok = False
 
-    if r_results[case]["path_matrix1"] != py_results[case]["path_matrix1"]:
-        differences.append(f"Testcase {case}: PathMatrix1 mismatch")
+    if r_results[case]["reachable_j"] != py_results[case]["reachable_j"]:
+        differences.append(f"Testcase {case}: reachableJ mismatch")
         case_ok = False
 
-    if r_results[case]["result_matrix"] != py_results[case]["result_matrix"]:
-        differences.append(f"Testcase {case}: result matrix mismatch")
+    if r_results[case]["reachable_noncausal"] != py_results[case]["reachable_noncausal"]:
+        differences.append(f"Testcase {case}: reachableOnNonCausalPath mismatch")
         case_ok = False
 
     if case_ok:
@@ -133,7 +152,7 @@ if differences:
     for item in differences:
         print("-", item)
 else:
-    print("\nAll testcase inputs and result matrices are identical.")
+    print("\nAll testcase inputs and main results are identical.")
 
 report_file = base_dir / "comparison_report.txt"
 
@@ -149,6 +168,6 @@ with open(report_file, "w", encoding="utf-8") as f:
         for item in differences:
             f.write(item + "\n")
     else:
-        f.write("All testcase inputs and result matrices are identical.\n")
+        f.write("All testcase inputs and main results are identical.\n")
 
 print("\nReport saved to", report_file)
