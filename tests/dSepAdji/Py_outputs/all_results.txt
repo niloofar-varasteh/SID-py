@@ -10,9 +10,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0
 timeComputePM:
-1.7404556274414062e-05
+5.1021575927734375e-05
 timeComputePM2:
-4.0531158447265625e-06
+5.9604644775390625e-06
 
 Testcase 2
 Matrix:
@@ -26,9 +26,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0
 timeComputePM:
-9.775161743164062e-06
+1.0728836059570312e-05
 timeComputePM2:
-8.106231689453125e-06
+8.58306884765625e-06
 
 Testcase 3
 Matrix:
@@ -43,9 +43,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0
 timeComputePM:
-1.2874603271484375e-05
+8.106231689453125e-06
 timeComputePM2:
-3.814697265625e-06
+1.6689300537109375e-06
 
 Testcase 4
 Matrix:
@@ -60,9 +60,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0
 timeComputePM:
-1.3113021850585938e-05
+1.7642974853515625e-05
 timeComputePM2:
-1.9073486328125e-06
+2.1457672119140625e-06
 
 Testcase 5
 Matrix:
@@ -77,9 +77,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0
 timeComputePM:
-9.059906005859375e-06
+8.344650268554688e-06
 timeComputePM2:
-9.059906005859375e-06
+1.0967254638671875e-05
 
 Testcase 6
 Matrix:
@@ -94,7 +94,7 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0
 timeComputePM:
-2.5987625122070312e-05
+8.58306884765625e-06
 timeComputePM2:
 1.6689300537109375e-06
 
@@ -112,9 +112,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-1.7881393432617188e-05
+1.3113021850585938e-05
 timeComputePM2:
-2.384185791015625e-06
+1.9073486328125e-06
 
 Testcase 8
 Matrix:
@@ -130,9 +130,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-1.430511474609375e-05
+1.4543533325195312e-05
 timeComputePM2:
-1.1444091796875e-05
+1.1682510375976562e-05
 
 Testcase 9
 Matrix:
@@ -148,9 +148,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0
 timeComputePM:
-1.0013580322265625e-05
+9.298324584960938e-06
 timeComputePM2:
-1.9073486328125e-06
+1.6689300537109375e-06
 
 Testcase 10
 Matrix:
@@ -166,7 +166,7 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 1
 timeComputePM:
-8.821487426757812e-06
+9.298324584960938e-06
 timeComputePM2:
 1.6689300537109375e-06
 
@@ -184,9 +184,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 0
 timeComputePM:
-7.867813110351562e-06
+8.821487426757812e-06
 timeComputePM2:
-9.059906005859375e-06
+1.0251998901367188e-05
 
 Testcase 12
 Matrix:
@@ -202,9 +202,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-8.58306884765625e-06
+1.0251998901367188e-05
 timeComputePM2:
-1.6689300537109375e-06
+1.9073486328125e-06
 
 Testcase 13
 Matrix:
@@ -220,9 +220,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-8.58306884765625e-06
+1.0251998901367188e-05
 timeComputePM2:
-1.1920928955078125e-06
+1.6689300537109375e-06
 
 Testcase 14
 Matrix:
@@ -238,9 +238,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 1
 timeComputePM:
-8.344650268554688e-06
+8.821487426757812e-06
 timeComputePM2:
-1.1205673217773438e-05
+1.0251998901367188e-05
 
 Testcase 15
 Matrix:
@@ -256,9 +256,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-8.58306884765625e-06
+1.0728836059570312e-05
 timeComputePM2:
-1.9073486328125e-06
+2.1457672119140625e-06
 
 Testcase 16
 Matrix:
@@ -274,9 +274,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0
 timeComputePM:
-8.344650268554688e-06
+9.298324584960938e-06
 timeComputePM2:
-9.5367431640625e-06
+1.0013580322265625e-05
 
 Testcase 17
 Matrix:
@@ -294,9 +294,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 0 0 0
 timeComputePM:
-1.1444091796875e-05
+1.1205673217773438e-05
 timeComputePM2:
-1.1444091796875e-05
+1.0728836059570312e-05
 
 Testcase 18
 Matrix:
@@ -314,9 +314,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1 0 0
 timeComputePM:
-1.0967254638671875e-05
+1.33514404296875e-05
 timeComputePM2:
-2.384185791015625e-05
+1.2636184692382812e-05
 
 Testcase 19
 Matrix:
@@ -334,9 +334,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0
 timeComputePM:
-1.239776611328125e-05
+1.2874603271484375e-05
 timeComputePM2:
-1.6689300537109375e-06
+2.384185791015625e-06
 
 Testcase 20
 Matrix:
@@ -356,7 +356,7 @@ reachableOnNonCausalPath:
 timeComputePM:
 1.049041748046875e-05
 timeComputePM2:
-1.0251998901367188e-05
+1.1444091796875e-05
 
 Testcase 21
 Matrix:
@@ -376,7 +376,7 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 0 0
 timeComputePM:
-1.621246337890625e-05
+1.811981201171875e-05
 timeComputePM2:
 2.384185791015625e-06
 
@@ -398,9 +398,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 0 0
 timeComputePM:
-1.52587890625e-05
+1.5735626220703125e-05
 timeComputePM2:
-1.4543533325195312e-05
+1.33514404296875e-05
 
 Testcase 23
 Matrix:
@@ -422,7 +422,7 @@ reachableOnNonCausalPath:
 timeComputePM:
 1.4543533325195312e-05
 timeComputePM2:
-1.1444091796875e-05
+1.1920928955078125e-05
 
 Testcase 24
 Matrix:
@@ -443,7 +443,7 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 0 0 0
 timeComputePM:
-3.0517578125e-05
+1.8596649169921875e-05
 timeComputePM2:
 1.6689300537109375e-06
 
@@ -466,7 +466,7 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 0 0 0 0 0
 timeComputePM:
-2.2411346435546875e-05
+1.9073486328125e-05
 timeComputePM2:
 1.6689300537109375e-06
 
@@ -489,7 +489,7 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 0 0 0 0 0
 timeComputePM:
-1.6927719116210938e-05
+1.6689300537109375e-05
 timeComputePM2:
 1.1920928955078125e-05
 
@@ -510,9 +510,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 0
 timeComputePM:
-1.8358230590820312e-05
+1.33514404296875e-05
 timeComputePM2:
-1.9073486328125e-06
+2.1457672119140625e-06
 
 Testcase 28
 Matrix:
@@ -531,9 +531,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1 1 1 1
 timeComputePM:
-1.2874603271484375e-05
+1.3113021850585938e-05
 timeComputePM2:
-1.33514404296875e-05
+1.1444091796875e-05
 
 Testcase 29
 Matrix:
@@ -549,9 +549,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-8.58306884765625e-06
+8.821487426757812e-06
 timeComputePM2:
-9.298324584960938e-06
+1.1205673217773438e-05
 
 Testcase 30
 Matrix:
@@ -571,9 +571,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 0 1 1
 timeComputePM:
-1.621246337890625e-05
+1.6689300537109375e-05
 timeComputePM2:
-1.6689300537109375e-06
+1.9073486328125e-06
 
 Testcase 31
 Matrix:
@@ -594,9 +594,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 0 1 1 1 1
 timeComputePM:
-3.409385681152344e-05
+2.5272369384765625e-05
 timeComputePM2:
-1.1920928955078125e-05
+1.1444091796875e-05
 
 Testcase 32
 Matrix:
@@ -612,9 +612,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0
 timeComputePM:
-1.0967254638671875e-05
+1.2874603271484375e-05
 timeComputePM2:
-1.3589859008789062e-05
+1.2874603271484375e-05
 
 Testcase 33
 Matrix:
@@ -637,9 +637,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 1 1 1 1 0
 timeComputePM:
-2.9325485229492188e-05
+3.0040740966796875e-05
 timeComputePM2:
-1.52587890625e-05
+4.1961669921875e-05
 
 Testcase 34
 Matrix:
@@ -661,9 +661,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0 0 0 0 0 0 0
 timeComputePM:
-2.384185791015625e-05
+2.288818359375e-05
 timeComputePM2:
-1.2874603271484375e-05
+1.3589859008789062e-05
 
 Testcase 35
 Matrix:
@@ -681,9 +681,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 0
 timeComputePM:
-1.1682510375976562e-05
+1.2159347534179688e-05
 timeComputePM2:
-1.1205673217773438e-05
+1.2636184692382812e-05
 
 Testcase 36
 Matrix:
@@ -704,9 +704,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 1 1 0
 timeComputePM:
-2.0742416381835938e-05
+2.193450927734375e-05
 timeComputePM2:
-1.0967254638671875e-05
+1.1920928955078125e-05
 
 Testcase 37
 Matrix:
@@ -724,7 +724,7 @@ reachableOnNonCausalPath:
 timeComputePM:
 8.58306884765625e-06
 timeComputePM2:
-1.0013580322265625e-05
+9.298324584960938e-06
 
 Testcase 38
 Matrix:
@@ -744,9 +744,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 1 1 0 0 0
 timeComputePM:
-1.5735626220703125e-05
+1.9311904907226562e-05
 timeComputePM2:
-1.4066696166992188e-05
+1.2874603271484375e-05
 
 Testcase 39
 Matrix:
@@ -765,9 +765,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 0
 timeComputePM:
-1.3113021850585938e-05
+1.5020370483398438e-05
 timeComputePM2:
-1.1444091796875e-05
+1.0967254638671875e-05
 
 Testcase 40
 Matrix:
@@ -788,9 +788,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0 0 0 0 0 0
 timeComputePM:
-1.9550323486328125e-05
+2.5510787963867188e-05
 timeComputePM2:
-1.2874603271484375e-05
+1.1920928955078125e-05
 
 Testcase 41
 Matrix:
@@ -809,9 +809,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 0
 timeComputePM:
-1.6450881958007812e-05
+1.4543533325195312e-05
 timeComputePM2:
-1.6689300537109375e-06
+2.1457672119140625e-06
 
 Testcase 42
 Matrix:
@@ -827,9 +827,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 0
 timeComputePM:
-8.821487426757812e-06
+9.5367431640625e-06
 timeComputePM2:
-1.6689300537109375e-06
+1.9073486328125e-06
 
 Testcase 43
 Matrix:
@@ -850,9 +850,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 1 1 0
 timeComputePM:
-1.8358230590820312e-05
+2.4318695068359375e-05
 timeComputePM2:
-1.1920928955078125e-05
+1.239776611328125e-05
 
 Testcase 44
 Matrix:
@@ -869,9 +869,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0
 timeComputePM:
-8.58306884765625e-06
+1.049041748046875e-05
 timeComputePM2:
-9.059906005859375e-06
+1.33514404296875e-05
 
 Testcase 45
 Matrix:
@@ -888,9 +888,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 0 0
 timeComputePM:
-9.298324584960938e-06
+1.0728836059570312e-05
 timeComputePM2:
-8.821487426757812e-06
+1.1205673217773438e-05
 
 Testcase 46
 Matrix:
@@ -909,9 +909,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 0 1 1 1
 timeComputePM:
-3.0517578125e-05
+1.5020370483398438e-05
 timeComputePM2:
-1.6689300537109375e-06
+2.1457672119140625e-06
 
 Testcase 47
 Matrix:
@@ -933,9 +933,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1 0 0 1 1 0 0
 timeComputePM:
-2.6941299438476562e-05
+2.3365020751953125e-05
 timeComputePM2:
-1.6689300537109375e-06
+2.1457672119140625e-06
 
 Testcase 48
 Matrix:
@@ -955,9 +955,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 0 1
 timeComputePM:
-1.4781951904296875e-05
+1.5020370483398438e-05
 timeComputePM2:
-2.5987625122070312e-05
+1.2874603271484375e-05
 
 Testcase 49
 Matrix:
@@ -973,9 +973,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 0
 timeComputePM:
-1.1444091796875e-05
+8.821487426757812e-06
 timeComputePM2:
-9.5367431640625e-06
+1.0013580322265625e-05
 
 Testcase 50
 Matrix:
@@ -994,9 +994,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 1 1 0 0
 timeComputePM:
-1.7881393432617188e-05
-timeComputePM2:
 1.3113021850585938e-05
+timeComputePM2:
+1.0967254638671875e-05
 
 Testcase 51
 Matrix:
@@ -1012,9 +1012,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1
 timeComputePM:
-1.049041748046875e-05
+9.775161743164062e-06
 timeComputePM2:
-1.2159347534179688e-05
+1.239776611328125e-05
 
 Testcase 52
 Matrix:
@@ -1030,9 +1030,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-1.1205673217773438e-05
+8.58306884765625e-06
 timeComputePM2:
-2.5987625122070312e-05
+9.775161743164062e-06
 
 Testcase 53
 Matrix:
@@ -1053,7 +1053,7 @@ reachableOnNonCausalPath:
 timeComputePM:
 1.3828277587890625e-05
 timeComputePM2:
-1.239776611328125e-05
+1.0728836059570312e-05
 
 Testcase 54
 Matrix:
@@ -1074,9 +1074,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 1 1 1 1 1 0
 timeComputePM:
-2.09808349609375e-05
+1.9073486328125e-05
 timeComputePM2:
-1.2159347534179688e-05
+1.1682510375976562e-05
 
 Testcase 55
 Matrix:
@@ -1096,7 +1096,7 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 0 1 1 1 1
 timeComputePM:
-3.075599670410156e-05
+1.5735626220703125e-05
 timeComputePM2:
 1.1920928955078125e-05
 
@@ -1118,9 +1118,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1 1 1 1 1
 timeComputePM:
-1.71661376953125e-05
+1.6689300537109375e-05
 timeComputePM2:
-1.33514404296875e-05
+1.0967254638671875e-05
 
 Testcase 57
 Matrix:
@@ -1136,9 +1136,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 1
 timeComputePM:
-2.0503997802734375e-05
+1.1920928955078125e-05
 timeComputePM2:
-1.6689300537109375e-05
+1.239776611328125e-05
 
 Testcase 58
 Matrix:
@@ -1157,7 +1157,7 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 1 1 0
 timeComputePM:
-1.4543533325195312e-05
+1.33514404296875e-05
 timeComputePM2:
 2.1457672119140625e-06
 
@@ -1175,9 +1175,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 0
 timeComputePM:
-8.821487426757812e-06
+1.0967254638671875e-05
 timeComputePM2:
-9.775161743164062e-06
+1.2636184692382812e-05
 
 Testcase 60
 Matrix:
@@ -1197,9 +1197,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 0 0
 timeComputePM:
-1.430511474609375e-05
+1.52587890625e-05
 timeComputePM2:
-1.6689300537109375e-06
+1.9073486328125e-06
 
 Testcase 61
 Matrix:
@@ -1215,9 +1215,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1
 timeComputePM:
-8.58306884765625e-06
+1.0251998901367188e-05
 timeComputePM2:
-1.6689300537109375e-06
+2.1457672119140625e-06
 
 Testcase 62
 Matrix:
@@ -1238,9 +1238,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1 0 0 1 1 0
 timeComputePM:
-1.8596649169921875e-05
+1.811981201171875e-05
 timeComputePM2:
-1.430511474609375e-06
+1.6689300537109375e-06
 
 Testcase 63
 Matrix:
@@ -1260,9 +1260,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 0 0 0 0 0
 timeComputePM:
-9.512901306152344e-05
+1.621246337890625e-05
 timeComputePM2:
-1.0967254638671875e-05
+1.1444091796875e-05
 
 Testcase 64
 Matrix:
@@ -1280,9 +1280,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 0 0 0
 timeComputePM:
-1.2874603271484375e-05
+1.0967254638671875e-05
 timeComputePM2:
-1.3113021850585938e-05
+1.0967254638671875e-05
 
 Testcase 65
 Matrix:
@@ -1298,9 +1298,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 1
 timeComputePM:
-9.775161743164062e-06
+1.049041748046875e-05
 timeComputePM2:
-1.0251998901367188e-05
+1.1682510375976562e-05
 
 Testcase 66
 Matrix:
@@ -1320,9 +1320,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 0 1
 timeComputePM:
-1.4781951904296875e-05
+1.52587890625e-05
 timeComputePM2:
-1.0967254638671875e-05
+1.1205673217773438e-05
 
 Testcase 67
 Matrix:
@@ -1341,9 +1341,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0 0 0 0
 timeComputePM:
-1.6450881958007812e-05
+1.4781951904296875e-05
 timeComputePM2:
-1.2874603271484375e-05
+1.1444091796875e-05
 
 Testcase 68
 Matrix:
@@ -1359,9 +1359,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-8.821487426757812e-06
+9.775161743164062e-06
 timeComputePM2:
-1.6689300537109375e-06
+1.9073486328125e-06
 
 Testcase 69
 Matrix:
@@ -1377,7 +1377,7 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 1
 timeComputePM:
-1.0251998901367188e-05
+1.1444091796875e-05
 timeComputePM2:
 1.6689300537109375e-06
 
@@ -1399,9 +1399,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 0 0 0 0 0
 timeComputePM:
-1.4066696166992188e-05
+1.5974044799804688e-05
 timeComputePM2:
-1.1205673217773438e-05
+1.1920928955078125e-05
 
 Testcase 71
 Matrix:
@@ -1418,9 +1418,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0 0
 timeComputePM:
-1.0251998901367188e-05
+2.4080276489257812e-05
 timeComputePM2:
-9.059906005859375e-06
+1.1920928955078125e-05
 
 Testcase 72
 Matrix:
@@ -1440,9 +1440,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 1 0
 timeComputePM:
-1.6927719116210938e-05
+2.0503997802734375e-05
 timeComputePM2:
-1.6689300537109375e-06
+2.384185791015625e-06
 
 Testcase 73
 Matrix:
@@ -1462,9 +1462,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 0 1 1
 timeComputePM:
-3.838539123535156e-05
+1.71661376953125e-05
 timeComputePM2:
-1.9073486328125e-06
+2.1457672119140625e-06
 
 Testcase 74
 Matrix:
@@ -1486,7 +1486,7 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1 0 0 0 0 0 0
 timeComputePM:
-2.765655517578125e-05
+2.4557113647460938e-05
 timeComputePM2:
 1.5735626220703125e-05
 
@@ -1506,9 +1506,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 0 0 0
 timeComputePM:
-1.239776611328125e-05
+1.1444091796875e-05
 timeComputePM2:
-1.1920928955078125e-05
+1.3113021850585938e-05
 
 Testcase 76
 Matrix:
@@ -1530,9 +1530,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 1 1 0 1
 timeComputePM:
-2.3365020751953125e-05
+2.4080276489257812e-05
 timeComputePM2:
-1.1682510375976562e-05
+2.2172927856445312e-05
 
 Testcase 77
 Matrix:
@@ -1552,9 +1552,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 1 1 1 0
 timeComputePM:
-1.7642974853515625e-05
+1.5497207641601562e-05
 timeComputePM2:
-1.0967254638671875e-05
+1.239776611328125e-05
 
 Testcase 78
 Matrix:
@@ -1576,9 +1576,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 0 0 0 0 0 0
 timeComputePM:
-2.2649765014648438e-05
+2.3603439331054688e-05
 timeComputePM2:
-2.1457672119140625e-06
+2.384185791015625e-06
 
 Testcase 79
 Matrix:
@@ -1597,9 +1597,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 0
 timeComputePM:
-1.4781951904296875e-05
+1.3589859008789062e-05
 timeComputePM2:
-1.239776611328125e-05
+1.1444091796875e-05
 
 Testcase 80
 Matrix:
@@ -1615,9 +1615,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0
 timeComputePM:
-9.5367431640625e-06
+9.298324584960938e-06
 timeComputePM2:
-1.0013580322265625e-05
+1.0251998901367188e-05
 
 Testcase 81
 Matrix:
@@ -1635,9 +1635,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 0 1
 timeComputePM:
-1.239776611328125e-05
+1.2636184692382812e-05
 timeComputePM2:
-1.430511474609375e-06
+1.6689300537109375e-06
 
 Testcase 82
 Matrix:
@@ -1660,9 +1660,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 0 0 0 0 0
 timeComputePM:
-2.9802322387695312e-05
+2.6226043701171875e-05
 timeComputePM2:
-1.239776611328125e-05
+1.33514404296875e-05
 
 Testcase 83
 Matrix:
@@ -1678,9 +1678,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0
 timeComputePM:
-9.775161743164062e-06
-timeComputePM2:
 9.059906005859375e-06
+timeComputePM2:
+1.0013580322265625e-05
 
 Testcase 84
 Matrix:
@@ -1701,7 +1701,7 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 1 1 1 0
 timeComputePM:
-1.7404556274414062e-05
+1.7881393432617188e-05
 timeComputePM2:
 1.1444091796875e-05
 
@@ -1724,9 +1724,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 0 1 0 0 0
 timeComputePM:
-1.7881393432617188e-05
+1.7404556274414062e-05
 timeComputePM2:
-1.1920928955078125e-05
+1.4066696166992188e-05
 
 Testcase 86
 Matrix:
@@ -1747,7 +1747,7 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 1 1 0 1
 timeComputePM:
-1.8358230590820312e-05
+1.71661376953125e-05
 timeComputePM2:
 1.9073486328125e-06
 
@@ -1769,9 +1769,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 1 1 0 1 1
 timeComputePM:
-1.3828277587890625e-05
+1.430511474609375e-05
 timeComputePM2:
-1.0251998901367188e-05
+1.4066696166992188e-05
 
 Testcase 88
 Matrix:
@@ -1787,9 +1787,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-8.821487426757812e-06
+9.5367431640625e-06
 timeComputePM2:
-1.6689300537109375e-06
+1.9073486328125e-06
 
 Testcase 89
 Matrix:
@@ -1808,9 +1808,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 1 0 0 0
 timeComputePM:
-1.3828277587890625e-05
+1.430511474609375e-05
 timeComputePM2:
-1.1444091796875e-05
+1.1920928955078125e-05
 
 Testcase 90
 Matrix:
@@ -1827,9 +1827,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0
 timeComputePM:
-1.0013580322265625e-05
+1.1444091796875e-05
 timeComputePM2:
-1.6689300537109375e-06
+1.9073486328125e-06
 
 Testcase 91
 Matrix:
@@ -1848,9 +1848,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 1 1 0 0
 timeComputePM:
-1.2159347534179688e-05
+1.2874603271484375e-05
 timeComputePM2:
-1.0728836059570312e-05
+1.1205673217773438e-05
 
 Testcase 92
 Matrix:
@@ -1868,9 +1868,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1 0 0
 timeComputePM:
-1.1444091796875e-05
+1.2159347534179688e-05
 timeComputePM2:
-1.049041748046875e-05
+1.1444091796875e-05
 
 Testcase 93
 Matrix:
@@ -1891,9 +1891,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 1 1 1 1 1 1
 timeComputePM:
-1.7642974853515625e-05
+1.6927719116210938e-05
 timeComputePM2:
-1.0251998901367188e-05
+1.0728836059570312e-05
 
 Testcase 94
 Matrix:
@@ -1909,9 +1909,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0
 timeComputePM:
-8.821487426757812e-06
+8.344650268554688e-06
 timeComputePM2:
-1.0013580322265625e-05
+9.5367431640625e-06
 
 Testcase 95
 Matrix:
@@ -1933,9 +1933,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 1 0 0 0 0 0 0 0
 timeComputePM:
-2.4557113647460938e-05
+2.3603439331054688e-05
 timeComputePM2:
-1.33514404296875e-05
+1.239776611328125e-05
 
 Testcase 96
 Matrix:
@@ -1957,9 +1957,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0 0 0 0 0 0
 timeComputePM:
-2.288818359375e-05
+2.2172927856445312e-05
 timeComputePM2:
-1.239776611328125e-05
+1.2874603271484375e-05
 
 Testcase 97
 Matrix:
@@ -1975,9 +1975,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0
 timeComputePM:
-1.0013580322265625e-05
+8.821487426757812e-06
 timeComputePM2:
-9.775161743164062e-06
+1.0013580322265625e-05
 
 Testcase 98
 Matrix:
@@ -1994,9 +1994,9 @@ reachableJ:
 reachableOnNonCausalPath:
 0 0 0 0
 timeComputePM:
-1.0013580322265625e-05
+9.775161743164062e-06
 timeComputePM2:
-1.430511474609375e-06
+1.9073486328125e-06
 
 Testcase 99
 Matrix:
@@ -2014,9 +2014,9 @@ reachableJ:
 reachableOnNonCausalPath:
 1 0 0 0 0
 timeComputePM:
-1.0967254638671875e-05
+1.1920928955078125e-05
 timeComputePM2:
-1.0967254638671875e-05
+1.239776611328125e-05
 
 Testcase 100
 Matrix:
@@ -2034,7 +2034,7 @@ reachableJ:
 reachableOnNonCausalPath:
 0 1 0 0 0
 timeComputePM:
-1.0728836059570312e-05
+1.0967254638671875e-05
 timeComputePM2:
-9.775161743164062e-06
+1.0967254638671875e-05
 

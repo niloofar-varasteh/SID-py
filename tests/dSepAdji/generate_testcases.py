@@ -168,7 +168,7 @@ G = make_fork_graph()
 save_testcase(case_index, G, 2, [])
 case_index += 1
 
-#collider 1 -> 2 <- 3
+#collider 1 -> 2 <- 3 #Vstructure is different with Collider , if it is Vstructure it is a collider but not inverse it ture !
 G = make_collider_graph()
 save_testcase(case_index, G, 1, [])
 case_index += 1

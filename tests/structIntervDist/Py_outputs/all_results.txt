@@ -1,0 +1,2991 @@
+Testcase 1
+trueGraph:
+0
+estGraph:
+0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0
+
+Testcase 2
+trueGraph:
+0 1
+0 0
+estGraph:
+0 1
+0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0
+0 0
+
+Testcase 3
+trueGraph:
+0 1
+0 0
+estGraph:
+0 0
+1 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+2
+incorrectMat:
+0 1
+1 0
+
+Testcase 4
+trueGraph:
+0 1 0
+0 0 1
+0 0 0
+estGraph:
+0 1 0
+0 0 1
+0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0
+0 0 0
+0 0 0
+
+Testcase 5
+trueGraph:
+0 1 0
+0 0 1
+0 0 0
+estGraph:
+0 0 0
+0 0 1
+0 0 0
+output:
+False
+spars:
+False
+sid:
+1
+sidUpperBound:
+1
+sidLowerBound:
+1
+incorrectMat:
+0 0 0
+1 0 0
+0 0 0
+
+Testcase 6
+trueGraph:
+0 1 0
+0 0 1
+0 0 0
+estGraph:
+0 1 0
+0 0 1
+0 1 0
+output:
+False
+spars:
+False
+sid:
+3
+sidUpperBound:
+3
+sidLowerBound:
+0
+incorrectMat:
+0 0 0
+0 0 1
+1 1 0
+
+Testcase 7
+trueGraph:
+0 1 0 0
+0 0 1 0
+0 0 0 1
+0 0 0 0
+estGraph:
+0 1 0 0
+0 0 1 0
+0 0 0 1
+0 0 1 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 1
+1 1 1 0
+
+Testcase 8
+trueGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+estGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 9
+trueGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+estGraph:
+0 0 1 1
+1 0 0 0
+0 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+4
+incorrectMat:
+0 1 0 0
+1 0 1 1
+0 0 0 0
+0 0 0 0
+
+Testcase 10
+trueGraph:
+0 0 0
+1 0 1
+0 0 0
+estGraph:
+0 0 0
+1 0 1
+0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0
+0 0 0
+0 0 0
+
+Testcase 11
+trueGraph:
+0 0 1
+0 0 1
+0 0 0
+estGraph:
+0 0 1
+0 0 1
+0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0
+0 0 0
+0 0 0
+
+Testcase 12
+trueGraph:
+0 1 0 0
+0 0 0 0
+0 0 0 1
+0 0 0 0
+estGraph:
+0 1 0 0
+0 0 0 0
+0 0 0 1
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 13
+trueGraph:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 14
+trueGraph:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 1 0 0
+1 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+0
+incorrectMat:
+0 1 0 1 1
+1 0 1 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 15
+trueGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+5
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1 1 1 0
+
+Testcase 16
+trueGraph:
+0 1 0
+0 0 0
+0 0 0
+estGraph:
+0 1 0
+0 0 0
+0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0
+0 0 0
+0 0 0
+
+Testcase 17
+trueGraph:
+0 0 0
+0 0 0
+1 1 0
+estGraph:
+0 0 1
+0 0 0
+0 1 0
+output:
+False
+spars:
+False
+sid:
+3
+sidUpperBound:
+3
+sidLowerBound:
+3
+incorrectMat:
+0 1 1
+0 0 0
+1 0 0
+
+Testcase 18
+trueGraph:
+0 0 0 0
+0 0 0 0
+0 0 0 1
+0 0 0 0
+estGraph:
+0 0 0 0
+0 0 0 0
+0 0 0 1
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 19
+trueGraph:
+0 0 1 0
+0 0 0 0
+0 1 0 0
+0 0 0 0
+estGraph:
+0 0 0 0
+0 0 0 0
+0 1 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+1
+sidUpperBound:
+1
+sidLowerBound:
+1
+incorrectMat:
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 0
+
+Testcase 20
+trueGraph:
+0 0 0 0
+1 0 1 1
+0 0 0 0
+1 0 0 0
+estGraph:
+0 0 0 0
+1 0 1 1
+0 0 0 1
+1 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 21
+trueGraph:
+0 0 1 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1
+0 0 1 0 0
+estGraph:
+0 0 1 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1
+0 0 1 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 22
+trueGraph:
+0 0 0 0 1
+0 0 0 1 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 0 0 0 1
+0 0 0 1 0
+0 0 0 0 0
+0 1 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 1 0
+0 0 0 0 0
+0 1 0 0 0
+0 0 0 0 0
+
+Testcase 23
+trueGraph:
+0 0 0 0 0
+1 0 1 0 1
+1 0 0 0 1
+1 1 0 0 0
+1 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 1 0 1
+1 0 0 0 1
+1 1 0 0 0
+1 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+4
+incorrectMat:
+0 1 0 0 0
+1 0 1 0 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 24
+trueGraph:
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 25
+trueGraph:
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 0 0 1 1
+0 0 0 0 1 1
+0 0 0 0 0 1
+0 0 0 0 0 0
+estGraph:
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 0 0 0 1 1
+0 0 0 0 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+1
+sidUpperBound:
+1
+sidLowerBound:
+1
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 1 0
+
+Testcase 26
+trueGraph:
+0 1 1 1 1 1
+0 0 0 1 1 1
+0 1 0 1 1 1
+0 0 0 0 1 0
+0 0 0 0 0 0
+0 0 0 1 0 0
+estGraph:
+0 1 1 1 1 1
+0 0 0 1 1 1
+0 1 0 1 1 1
+0 1 0 0 1 0
+0 0 0 0 0 0
+0 0 0 1 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 1 1 1
+0 0 0 0 0 0
+0 1 0 0 1 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 27
+trueGraph:
+0 1 0 1 1 1
+0 0 1 1 1 1
+0 0 0 0 0 1
+0 0 1 0 1 1
+0 0 1 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 0 1 1 1
+0 0 1 1 1 1
+0 0 0 0 0 1
+0 0 1 0 1 1
+0 0 1 0 0 0
+0 0 0 1 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 1 0 1 1
+0 0 0 0 0 0
+0 0 0 1 1 0
+
+Testcase 28
+trueGraph:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+estGraph:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 0
+0 0 0 0 0 1 0
+output:
+False
+spars:
+False
+sid:
+7
+sidUpperBound:
+7
+sidLowerBound:
+7
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 1
+1 1 1 1 1 1 0
+
+Testcase 29
+trueGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 1 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 1 1
+1 1 1 0 0
+0 0 0 0 0
+
+Testcase 30
+trueGraph:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 1 1 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+5
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1 1 1 0
+
+Testcase 31
+trueGraph:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 1 0 0
+0 0 0 1 1
+1 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+0
+incorrectMat:
+0 0 1 0 0
+0 0 0 0 0
+1 1 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 32
+trueGraph:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 1 0 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+6
+sidUpperBound:
+6
+sidLowerBound:
+6
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 1 0 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 33
+trueGraph:
+0 0 0 0 0
+1 0 0 0 1
+0 0 0 0 0
+1 0 1 0 0
+1 0 0 0 0
+estGraph:
+0 0 0 0 0
+1 0 0 0 1
+0 0 0 0 0
+0 0 1 0 0
+1 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+2
+incorrectMat:
+0 0 1 1 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 34
+trueGraph:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+7
+sidUpperBound:
+7
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 1 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 1 1 1 1 0 1
+0 0 0 0 0 0 0
+
+Testcase 35
+trueGraph:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+estGraph:
+0 0 0 0 0 0
+1 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+6
+sidUpperBound:
+6
+sidLowerBound:
+6
+incorrectMat:
+0 1 1 1 1 1
+1 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 36
+trueGraph:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+estGraph:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+4
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1 1 0 0
+0 0 0 0 0 0
+
+Testcase 37
+trueGraph:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 0 1 1 1 1 1
+1 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+7
+sidUpperBound:
+7
+sidLowerBound:
+7
+incorrectMat:
+0 1 0 0 0 0 0
+1 0 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 38
+trueGraph:
+0 0 0 0 0 0
+0 0 0 0 0 1
+0 0 0 0 0 1
+0 0 1 0 0 0
+1 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 0 0 0 0 0
+0 0 0 0 0 1
+0 0 0 0 0 1
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+1
+sidUpperBound:
+1
+sidLowerBound:
+1
+incorrectMat:
+0 0 0 0 1 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 39
+trueGraph:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 40
+trueGraph:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 0 1 1
+1 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+5
+incorrectMat:
+0 0 1 0 0
+0 0 0 0 0
+1 1 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 41
+trueGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 1 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+6
+sidUpperBound:
+6
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 1 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1 1 0 1
+0 0 0 0 0 0
+
+Testcase 42
+trueGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+estGraph:
+0 1 0 1
+0 0 0 0
+1 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+4
+incorrectMat:
+0 0 1 0
+0 0 0 0
+1 1 0 1
+0 0 0 0
+
+Testcase 43
+trueGraph:
+0 0 0 0 1 0 1
+0 0 0 0 0 0 0
+1 0 0 0 1 0 1
+0 0 0 0 0 1 0
+0 0 0 0 0 0 0
+0 1 0 0 1 0 1
+0 0 0 0 1 0 0
+estGraph:
+0 0 0 0 1 0 1
+0 0 0 0 0 0 0
+1 0 0 0 1 0 1
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
+0 1 0 0 1 0 1
+0 0 0 0 1 0 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+0 0 0 0 1 0 0
+
+Testcase 44
+trueGraph:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 1 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 45
+trueGraph:
+0 1 0 0 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 1 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 1 0 0 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 1 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 46
+trueGraph:
+0 0 1 0 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1
+0 1 0 0 0
+estGraph:
+0 0 0 0 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1
+0 1 0 0 0
+output:
+False
+spars:
+False
+sid:
+3
+sidUpperBound:
+3
+sidLowerBound:
+3
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+1 1 0 0 1
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 47
+trueGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+estGraph:
+0 0 0 0 0
+1 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+5
+incorrectMat:
+0 1 1 1 1
+1 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 48
+trueGraph:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 1 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+5
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1 1 0 1
+0 0 0 0 0 0
+
+Testcase 49
+trueGraph:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+6
+sidUpperBound:
+6
+sidLowerBound:
+6
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 1 1 1 1 0 1
+0 0 0 0 0 0 0
+
+Testcase 50
+trueGraph:
+0 0 0 0 0
+0 0 0 0 1
+0 0 0 0 0
+1 0 0 0 0
+1 0 0 0 0
+estGraph:
+0 0 0 0 1
+0 0 0 0 1
+0 0 0 0 0
+1 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+4
+incorrectMat:
+0 1 0 0 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+1 0 0 1 0
+
+Testcase 51
+trueGraph:
+0 0 0 0 0
+0 0 0 0 0
+1 1 0 0 0
+0 1 0 0 0
+1 1 0 0 0
+estGraph:
+0 0 0 0 0
+0 0 0 1 0
+1 1 0 0 0
+0 0 0 0 0
+1 1 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+5
+incorrectMat:
+0 0 0 0 0
+0 0 0 1 0
+0 0 0 0 0
+1 1 1 0 1
+0 0 0 0 0
+
+Testcase 52
+trueGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 53
+trueGraph:
+0 1 0
+0 0 1
+0 0 0
+estGraph:
+0 1 0
+1 0 1
+0 0 0
+output:
+False
+spars:
+False
+sid:
+3
+sidUpperBound:
+3
+sidLowerBound:
+0
+incorrectMat:
+0 1 1
+1 0 0
+0 0 0
+
+Testcase 54
+trueGraph:
+0 0 0 0
+1 0 0 0
+1 0 0 0
+0 0 0 0
+estGraph:
+0 0 0 0
+1 0 0 0
+0 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+1
+sidUpperBound:
+1
+sidLowerBound:
+1
+incorrectMat:
+0 0 1 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 55
+trueGraph:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 56
+trueGraph:
+0 1 0 0
+0 0 1 0
+0 0 0 1
+0 0 0 0
+estGraph:
+0 1 0 0
+0 0 1 0
+0 0 0 1
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 57
+trueGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 1 0 1
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 58
+trueGraph:
+0 1 0
+0 0 1
+0 0 0
+estGraph:
+0 1 0
+0 0 1
+1 0 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+2
+incorrectMat:
+0 1 1
+0 0 0
+0 0 0
+
+Testcase 59
+trueGraph:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 60
+trueGraph:
+0 1 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+estGraph:
+0 0 0 0
+1 0 0 0
+0 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+2
+incorrectMat:
+0 1 0 0
+1 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 61
+trueGraph:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 62
+trueGraph:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 63
+trueGraph:
+0 0 1 0 1
+0 0 0 0 0
+0 0 0 0 1
+1 1 0 0 1
+0 0 0 0 0
+estGraph:
+0 0 1 0 1
+0 0 0 0 0
+0 0 0 0 1
+1 1 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+2
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 1 0 1 0
+
+Testcase 64
+trueGraph:
+0 0 0 1 0
+0 0 0 0 0
+1 0 0 0 0
+0 0 0 0 0
+0 1 0 1 0
+estGraph:
+0 0 0 1 0
+0 0 0 0 0
+1 0 0 0 0
+0 0 0 0 0
+0 1 0 1 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 65
+trueGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+estGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 66
+trueGraph:
+0 1 0 0
+0 0 1 0
+0 0 0 1
+0 0 0 0
+estGraph:
+0 0 0 0
+1 0 1 0
+0 0 0 1
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+4
+incorrectMat:
+0 1 1 1
+1 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 67
+trueGraph:
+0 0 0 0 0 0
+0 0 0 0 0 1
+1 1 0 0 0 0
+0 1 0 0 0 1
+1 0 1 0 0 1
+0 0 0 0 0 0
+estGraph:
+0 0 0 0 0 0
+0 0 0 0 0 1
+1 1 0 0 0 0
+1 1 0 0 0 1
+1 0 1 0 0 1
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 68
+trueGraph:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+estGraph:
+0 0 0 0 0 0
+1 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+6
+sidUpperBound:
+6
+sidLowerBound:
+6
+incorrectMat:
+0 1 1 1 1 1
+1 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 69
+trueGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+estGraph:
+0 1 1 1
+1 0 0 0
+0 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+0
+incorrectMat:
+0 1 0 0
+1 0 1 1
+0 0 0 0
+0 0 0 0
+
+Testcase 70
+trueGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 1 0 0 0
+output:
+False
+spars:
+False
+sid:
+6
+sidUpperBound:
+6
+sidLowerBound:
+6
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1 1 1 0
+
+Testcase 71
+trueGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+estGraph:
+0 1 1 1
+1 0 0 0
+0 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+0
+incorrectMat:
+0 1 0 0
+1 0 1 1
+0 0 0 0
+0 0 0 0
+
+Testcase 72
+trueGraph:
+0 0 0 0 0
+1 0 0 0 0
+0 0 0 0 0
+1 0 1 0 0
+1 1 1 1 0
+estGraph:
+0 0 1 0 0
+1 0 0 0 0
+0 0 0 0 0
+1 0 1 0 0
+1 1 1 1 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 73
+trueGraph:
+0 1 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 1 1 0 0
+0 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 1 1 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 74
+trueGraph:
+0 1 0 0
+0 0 1 0
+0 0 0 1
+0 0 0 0
+estGraph:
+0 1 0 0
+0 0 1 0
+0 0 0 1
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 75
+trueGraph:
+0 0 0 1 0 1
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 1 1 1 0 0
+0 0 0 0 1 0
+estGraph:
+0 0 0 1 0 1
+0 0 1 0 0 0
+0 1 0 0 0 0
+0 0 0 0 0 0
+0 1 1 1 0 0
+0 0 0 0 1 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 1 0 0 0
+0 1 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 76
+trueGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 77
+trueGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 0 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+2
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+1 1 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 78
+trueGraph:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 1 1 0 0 0 0
+0 0 0 1 1 0 0
+0 0 0 0 0 1 1
+0 1 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+7
+sidUpperBound:
+7
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+1 1 1 0 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 79
+trueGraph:
+0 1 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 1 1 1
+1 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+6
+sidUpperBound:
+6
+sidLowerBound:
+0
+incorrectMat:
+0 1 0 0 0 0
+1 0 1 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 80
+trueGraph:
+0 1 0 0 0 1 0
+0 0 0 0 0 0 0
+1 1 0 0 0 0 0
+1 0 0 0 0 1 1
+1 1 0 0 0 1 0
+0 0 0 0 0 0 0
+1 0 1 0 1 1 0
+estGraph:
+0 1 0 0 0 1 0
+0 0 0 0 0 0 0
+1 1 0 0 0 0 0
+1 0 0 0 0 1 1
+1 1 1 0 0 1 0
+0 0 0 0 0 0 0
+1 0 1 0 1 1 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 81
+trueGraph:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 1 1 1 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+7
+sidUpperBound:
+7
+sidLowerBound:
+7
+incorrectMat:
+0 0 0 0 1 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 1 1 1 0 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 82
+trueGraph:
+0 1 0 0
+0 0 0 0
+1 0 0 0
+1 1 1 0
+estGraph:
+0 1 0 0
+0 0 0 0
+1 0 0 0
+1 1 1 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 83
+trueGraph:
+0 1 1 1 0 1
+0 0 0 0 0 0
+0 0 0 0 0 1
+0 1 0 0 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 1 0 1
+0 0 0 0 0 0
+0 0 0 0 0 1
+0 1 0 0 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 84
+trueGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+estGraph:
+0 1 1 1
+0 0 0 0
+0 0 0 0
+0 1 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Testcase 85
+trueGraph:
+0 0 0
+0 0 0
+0 1 0
+estGraph:
+0 0 0
+0 0 0
+0 0 0
+output:
+False
+spars:
+False
+sid:
+1
+sidUpperBound:
+1
+sidLowerBound:
+1
+incorrectMat:
+0 0 0
+0 0 1
+0 0 0
+
+Testcase 86
+trueGraph:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+estGraph:
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 87
+trueGraph:
+0 1 0
+0 0 1
+0 0 0
+estGraph:
+0 0 0
+0 0 1
+0 0 0
+output:
+False
+spars:
+False
+sid:
+1
+sidUpperBound:
+1
+sidLowerBound:
+1
+incorrectMat:
+0 0 0
+1 0 0
+0 0 0
+
+Testcase 88
+trueGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+estGraph:
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 0 0
+0 0 0 0 1
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+3
+sidUpperBound:
+3
+sidLowerBound:
+3
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+1 1 1 0 0
+0 0 0 0 0
+
+Testcase 89
+trueGraph:
+0 1 0
+0 0 0
+0 0 0
+estGraph:
+0 0 0
+0 0 0
+0 0 0
+output:
+False
+spars:
+False
+sid:
+1
+sidUpperBound:
+1
+sidLowerBound:
+1
+incorrectMat:
+0 0 0
+1 0 0
+0 0 0
+
+Testcase 90
+trueGraph:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+estGraph:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 1 0 1 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+7
+sidUpperBound:
+7
+sidLowerBound:
+7
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 1 1 1
+1 1 1 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 91
+trueGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+5
+sidUpperBound:
+5
+sidLowerBound:
+5
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 1 1 0 1
+0 0 0 0 0 0
+
+Testcase 92
+trueGraph:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 93
+trueGraph:
+0 0 0 0 0
+1 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 1 0 0
+estGraph:
+0 1 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 1 0 0
+output:
+False
+spars:
+False
+sid:
+2
+sidUpperBound:
+2
+sidLowerBound:
+2
+incorrectMat:
+0 1 0 0 0
+1 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 94
+trueGraph:
+0 1 1 1 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+estGraph:
+0 1 1 0 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+6
+sidUpperBound:
+6
+sidLowerBound:
+6
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 1 1 0 1 1 1
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 95
+trueGraph:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+estGraph:
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 1
+0 0 0 0 0
+0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Testcase 96
+trueGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+estGraph:
+0 1 1 0 0 0
+0 0 0 1 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Testcase 97
+trueGraph:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 0 0 1 0 1 0
+0 0 0 0 0 0 0
+0 1 1 0 0 0 0
+0 0 0 0 0 0 0
+1 0 1 0 0 0 0
+estGraph:
+0 0 0 0 0 0 0
+0 0 0 0 0 1 0
+1 0 0 1 0 1 0
+0 0 0 0 0 0 0
+0 1 1 0 0 0 0
+0 0 0 0 0 0 0
+1 0 1 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+Testcase 98
+trueGraph:
+0 1 0
+0 0 1
+0 0 0
+estGraph:
+0 1 0
+0 0 1
+0 0 0
+output:
+False
+spars:
+False
+sid:
+0
+sidUpperBound:
+0
+sidLowerBound:
+0
+incorrectMat:
+0 0 0
+0 0 0
+0 0 0
+
+Testcase 99
+trueGraph:
+0 1 1 0
+0 0 0 1
+0 0 0 0
+0 0 0 0
+estGraph:
+0 1 0 0
+0 0 0 1
+1 0 0 0
+0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+4
+incorrectMat:
+0 0 1 0
+0 0 0 0
+1 1 0 1
+0 0 0 0
+
+Testcase 100
+trueGraph:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 1 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+estGraph:
+0 1 0 0 0 0 0
+0 0 1 0 0 0 0
+0 0 0 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 1 0
+0 0 0 0 0 0 1
+0 0 0 0 0 0 0
+output:
+False
+spars:
+False
+sid:
+4
+sidUpperBound:
+4
+sidLowerBound:
+4
+incorrectMat:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+1 1 1 1 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
