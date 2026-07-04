@@ -1,3 +1,3 @@
-p=15
-probConnect=1.0
-causalOrder=1 13 4 8 9 7 2 12 11 6 15 10 14 3 5
+p=10
+probConnect=0.1
+causalOrder=7 2 3 10 4 9 1 8 6 5

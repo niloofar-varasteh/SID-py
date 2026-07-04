@@ -2,7 +2,7 @@ import os
 import random
 import numpy as np
 
-NUM_TESTCASES = 100
+NUM_TESTCASES = 10000
 os.makedirs("Testcase", exist_ok=True)
 
 

@@ -8,7 +8,7 @@ from cdt.data import AcyclicGraphGenerator
 BASE_DIR = Path(__file__).resolve().parent
 TESTCASE_DIR = BASE_DIR / "Testcase"
 
-NUM_TESTCASES = 100
+NUM_TESTCASES = 10000
 TESTCASE_DIR.mkdir(parents=True, exist_ok=True)
 
 

@@ -55,7 +55,7 @@ print("Reading testcases from:", testcase_dir)
 print("Saving output to:", output_file)
 
 with open(output_file, "w", encoding="utf-8") as f:
-    for i in range(1, 101):
+    for i in range(1, 10001):
         filepath = os.path.join(testcase_dir, f"{i}.txt")
         G = np.loadtxt(filepath, dtype=int, ndmin=2)
 

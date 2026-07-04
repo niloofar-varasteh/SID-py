@@ -282,7 +282,7 @@ if (!dir.exists(output_dir)) {
 output_file <- file.path(output_dir, "all_results.txt")
 out <- file(output_file, open = "w")
 
-for(i_case in 1:100)
+for(i_case in 1:10000)
 {
     filepath <- file.path(testcase_dir, paste0(i_case, ".txt"))
     values <- read_testcase(filepath)

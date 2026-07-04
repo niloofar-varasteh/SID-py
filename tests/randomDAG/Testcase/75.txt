@@ -1,3 +1,3 @@
 p=8
-probConnect=0.3
-causalOrder=2 5 8 1 3 4 7 6
+probConnect=0.7
+causalOrder=4 5 7 2 1 3 6 8

@@ -241,7 +241,7 @@ print("Reading testcases from:", testcase_dir)
 print("Saving output to:", output_file)
 
 with open(output_file, "w", encoding="utf-8") as f:
-    for case_index in range(1, 101):
+    for case_index in range(1, 10001):
         filepath = os.path.join(testcase_dir, f"{case_index}.txt")
         adj_mat, i, cond_set = read_testcase(filepath)
 

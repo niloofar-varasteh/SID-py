@@ -1,7 +1,7 @@
 ===== COMPARISON REPORT =====
-R testcases found: 100
-Python testcases found: 100
-Passed testcases: 100
+R testcases found: 10000
+Python testcases found: 10000
+Passed testcases: 10000
 Failed testcases: 0
 
 All testcases passed the property-based checks.

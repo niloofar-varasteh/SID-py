@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = BASE_DIR.parent.parent
 TESTCASE_DIR = PROJECT_DIR / "tests" / "computeCausOrder" / "Testcase"
 
-NUM_TESTCASES = 100
+NUM_TESTCASES = 10000
 TESTCASE_DIR.mkdir(parents=True, exist_ok=True)
 
 def save_matrix(G, index):

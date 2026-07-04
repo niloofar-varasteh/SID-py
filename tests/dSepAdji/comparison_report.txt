@@ -1,7 +1,7 @@
 ===== COMPARISON REPORT =====
-R testcases found: 100
-Python testcases found: 100
-Matched testcases: 100
+R testcases found: 10000
+Python testcases found: 10000
+Matched testcases: 10000
 Differences found: 0
 
 All testcase inputs and main results are identical.

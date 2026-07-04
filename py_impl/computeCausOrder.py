@@ -34,7 +34,7 @@ output_file = output_dir / "all_results.txt"
 with open(output_file, "w", encoding="utf-8") as f:
 
 
-    for i in range(1, 101):
+    for i in range(1, 10001):
 
         filepath = testcase_dir / f"{i}.txt"
         # Builds the path for the current test case file.

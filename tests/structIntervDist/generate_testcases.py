@@ -2,7 +2,7 @@
 import os
 import random
 
-NUM_TESTCASES = 100
+NUM_TESTCASES = 10000
 random.seed(7)
 
 os.makedirs("Testcase", exist_ok=True)

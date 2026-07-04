@@ -1,0 +1,3 @@
+p=14
+probConnect=0.1
+causalOrder=7 9 1 13 6 11 14 5 8 2 3 4 10 12
