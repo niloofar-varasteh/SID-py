@@ -1,7 +1,7 @@
-===== COMPARISON REPORT hammingDist=====
+===== COMPARISON REPORT structIntervDist =====
 R testcases found: 10000
 Python testcases found: 10000
 Matched testcases: 10000
 Differences found: 0
 
-All testcase inputs and results are identical.
+All testcase inputs and SID results are identical.

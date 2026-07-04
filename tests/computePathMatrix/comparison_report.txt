@@ -1,4 +1,4 @@
-===== COMPARISON REPORT =====
+===== COMPARISON REPORT computePathMatrix=====
 R testcases found: 10000
 Python testcases found: 10000
 Differences found: 0

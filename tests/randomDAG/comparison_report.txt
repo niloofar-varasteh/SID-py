@@ -1,4 +1,4 @@
-===== COMPARISON REPORT =====
+===== COMPARISON REPORT randomDAG=====
 R testcases found: 10000
 Python testcases found: 10000
 Passed testcases: 10000

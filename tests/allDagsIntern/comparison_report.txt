@@ -1,4 +1,4 @@
-===== COMPARISON REPORT =====
+===== COMPARISON REPORT allDagsIntern =====
 R testcases found: 1500
 Python testcases found: 1500
 Matched testcases: 1500
