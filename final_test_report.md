@@ -4,8 +4,6 @@ This report summarizes the generated test cases and the comparison results betwe
 
 ## Summary
 
-## Summary
-
 | File / Function | R Testcases | Python Testcases | Matched / Passed | Differences / Failed | Result |
 |---|---:|---:|---:|---:|:---:|
 | `randomDAG` | 10,000 | 10,000 | 10,000 | 0 | Passed |
